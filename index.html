@@ -9,9 +9,13 @@
 		<title>Cálculo 2B - GMA/UFF</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />			
 	</head>
+
 	<body class="is-preload">
+		
+		<iframe src="menu.html"></iframe>
+		<div include-html="menu.html"></div>
 
 		<!-- Content -->
 			<div id="content">
@@ -28,6 +32,8 @@
 								<h2><a href="#">Cálculo 2B - GMA/UFF</a></h2>
 								<p>Este é o livro em construção da disciplina com a autoria dos professores do Departamento de Matemática Aplicada (Grupo de Matemática Aplicada - GMA/UFF)</p>
 							</header>
+							<div include-html="menu.html"></div>
+							<div id="menu"></div>
 							<a href="#" class="image featured"><img src="images/math-free-1182795-1280x960.jpg" alt="" /></a>
 							<p>
 								<strong>Olá!</strong> Você está olhando para o site em construção da disciplina de Cálculo 2B do GMA/UFF. Seja bem-vindo!
@@ -36,21 +42,20 @@
 				</div>
 			</div>
 
-		<!-- Sidebar -->
+		 <!-- Sidebar -->
 			<div id="sidebar">
 
 				<!-- Logo -->
 					<h1 id="logo"><a href="#">Cálculo 2B</a></h1>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="#">Introdução</a></li>
-							<li><a href="funcoes-escalares-de-varias-variaveis.html">Funções escalares de várias variáveis</a></li>
-						</ul>
-					</nav>
-
-				<!-- Text -->
+                    <nav id="nav">
+                        <ul>
+                            <li class="current"><a href="#">Introdução</a></li>
+                            <li><a href="funcoes-escalares-de-varias-variaveis.html">Funções escalares de várias variáveis</a></li>
+                        </ul>
+                </nav>
+                <!-- Text -->
 					<section class="box text-style1">
 						<div class="inner">
 							<p>
@@ -63,9 +68,8 @@
 				<!-- Copyright -->
 					<ul id="copyright">
 						<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
+					</ul> 
+    </div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -73,6 +77,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/include-html.js"></script>
+			<script> 
+				$(function(){
+				  $("#menu").load("menu.html"); 
+				});
+			</script> 
 	</body>
 </html>
