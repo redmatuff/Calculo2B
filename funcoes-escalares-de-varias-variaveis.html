@@ -10,7 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
 
@@ -26,68 +25,14 @@
 									if they get too long. You can also remove the <p> entirely if you don't
 									need a subtitle.
 								-->
-								<h2><a href="#">Funções escalares de várias variáveis</a></h2>
+								<h2>Funções escalares de várias variáveis</h2>
 							</header>
 
-							<h3>Definição</h3>
-							<p>
-								Dado um conjunto \(Dom \; F\subseteq \; R^{n}\) com \(n \geq 2\), uma função escalar  de várias variáveis é uma correspondência, \(F:Dom(F)\subseteq R^{n}\rightarrow \mathbb{R})\), 
-								que a cada coordenada \(\;t \;\epsilon \; \displaystyle Dom(F) \; \) na forma \(t \; = \; (t_{1},t_{2},...,t_{n}) \; \), associa um e apenas um \(z \; \epsilon \; \mathbb{R} \). 
-								No nosso caso trabalharemos com funções escalares com domínio sendo um subconjunto de \(R^{2} \; \) ou \( \; R^{3} \).  Logo nossa função será de uma das seguintes formas:
-								<br>
-								\(\bullet \; F \; : \; Dom(F) \; \subseteq \; \mathbb{R}^{2}\rightarrow \), tal que para cada \((x,y) \; \mapsto z \), onde \((x,y) \; \epsilon \; Dom(F) \).
-								<br>
-								\(\bullet \; F \; : \; Dom(F) \; \subseteq \; \mathbb{R}^{3}\rightarrow \), tal que para cada \((x,y,z) \; \mapsto t \), onde \((x,y,z) \; \epsilon \; Dom(F) \).
-								<br>
-								Nos recursos abaixo é possível observar algumas funções escalares polinomiais  com duas variáveis, algumas funções racionais e funções escalares básicas.
-								<p style="color:red;">
-									Obs: Sugerimos que ative uma função por vez, para uma melhor visualização do esboço. Para isso, desative a caixa clicando novamente antes de prosseguir para uma nova função.
-								</p>
-								<h4>Polinomiais</h4>
-								<iframe scrolling="no" title="Definição: Exemplos." src="https://www.geogebra.org/material/iframe/id/eh75rfyu/width/1000/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1000px" height="400px" style="border:0px;"> </iframe>
-								<br>
-								<h4>Exemplos básicos</h4>
-								<iframe scrolling="no" title="Definição: Exemplos." src="https://www.geogebra.org/material/iframe/id/kxy5sfq3/width/1000/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1000px" height="400px" style="border:0px;"> </iframe>
-								<br>
-								No recurso abaixo é possível observar que, através do isolamento de uma variável e sua restrição para valores positivos ou negativos, é possível gerar uma função escalar de várias variáveis 
-								a partir de uma Superfície Quádrica (apresentada no capítulo 4 dessa obra).
-								<br>
-								<p style="color:red;">
-									Obs: No applet abaixo as barras deslizantes referem-se aos coeficientes das funções. Para uma melhor compreensão, ative a caixa de uma função e observe o que ocorre ao variar os valores 
-								de a, b e c. </p>
-								<iframe scrolling="no" title="Exemplo :quádricas" src="https://www.geogebra.org/material/iframe/id/sw8rped4/width/1200/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="400px" style="border:0px;"> </iframe>
-							</p>
-	
-							<h3>Definição</h3>
-							<p>
-								O domínio de uma função \(F: \; Dom(F) \; \subseteq \; \mathbb{R}^{n}\rightarrow \mathbb{R} \) , com \(n\geq 2 \), é conjunto de pontos na forma \( (x_{1},x_{2},..,x_{n}) \) que quando aplicados em \(F\) retornam um valor real, ou seja, 
-								\( F(x_{1},x_{2},..,x_{n}) \mapsto z \; \) com \( z \; \epsilon \; \mathbb{R} \).
-							</p>
-							<h3>Definição</h3>
-							<p>
-								A imagem de uma função \( F: Dom(F) \; \subseteq \; \mathbb{R}^{n}\rightarrow \mathbb{R} \), com \( n\geq 2 \), é o subconjunto da reta real que é gerado pela função ao ser aplicada nos pontos do domínio. Ou seja \( z \; \epsilon \; Im(F) \),
-								  se \( \exists (x_{1},x_{2},...,x_{n}) \; \epsilon \; Dom(F) \) tal que \( F(x_{1},x_{2},..,x_{n}) \mapsto z \; \) com \( z \; \epsilon \; \mathbb{R} \).
-								<br>
-								Observe os exemplos a seguir, neles é possível observar o domínio a esquerda, o esboço da função ao centro e o subconjunto da reta real que forma a imagem a direita.
- 								No domínio, as  barras deslizantes definem os valores embutidos na função. No gráfico, é possível manipular o ponto (x,y) a esquerda e observar a coordenada (x,y,z) percorrer a superfície.
-								 <br>
-								<p style="color:red;">
-									Obs: Caso o ponto (x,y) retorne um ponto (x,y, f(x,y)) que não apareça na superfície, afaste o gráfico central para uma melhor visualização.
-								</p>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/rzcjgwsq/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/ymt7tfw3/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/uct82wqg/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/cw9vkd9e/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/uxgw5xcf/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Sem Título" src="https://www.geogebra.org/material/iframe/id/qvg5fejr/width/1200/height/550/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="550px" style="border:0px;"> </iframe>
-								<iframe scrolling="no" title="Exemplo :quádricas" src="https://www.geogebra.org/material/iframe/id/prjvzuyz/width/1200/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/true/ctl/false" width="1200px" height="400px" style="border:0px;"> </iframe>
-							</p>
-							<p style="color: darkgray;">
-								O conteúdo apresentado foi gerado através das notas da professora Denise de Oliveira Pinto, do Departamento de Matemática Aplicada da Universidade Federal Fluminense.
-								<br>
-								Co-autores: Author:Begoña Alarcón, Guilherme Cardoso Garcia de Carvalho, Raphael Odalvo.
-							</p>
-						</article>
+								<ul class="guide">
+									<li><a href="dominio-e-imagem-de-uma-função-escalar-de-varias-variaveis.html">Domínio e imagem de uma função escalar de várias variáveis</a></li>
+								</ul>
+							
+							
 				</div>
 			</div>
 
@@ -102,6 +47,6 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/includeHTML.js"></script>
 			<script>includeHTML();</script>
-
+			<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
 	</body>
 </html>

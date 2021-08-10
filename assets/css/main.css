@@ -1874,12 +1874,12 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.box.post .info .stats {
+		.box.post .info .guide {
 			margin: 0;
 			cursor: default;
 		}
 
-			.box.post .info .stats a {
+			.box.post .info .guide a {
 				font-size: 0.8em;
 				text-decoration: none;
 				color: #232323;
@@ -2254,16 +2254,16 @@ input, select, textarea {
 
 		/* Box */
 
-			.box.post .info .stats {
+			.box.post .info .guide {
 				list-style: none;
 				padding-left: 0;
 			}
 
-				.box.post .info .stats li {
+				.box.post .info .guide li {
 					padding-left: 0;
 				}
 
-					.box.post .info .stats li a {
+					.box.post .info .guide li a {
 						border-radius: 0.4em;
 						opacity: 0.5;
 						-moz-transition: opacity .25s ease-in-out, background-color .25s ease-in-out;
@@ -2272,7 +2272,7 @@ input, select, textarea {
 						transition: opacity .25s ease-in-out, background-color .25s ease-in-out;
 					}
 
-					.box.post .info .stats li:hover a {
+					.box.post .info .guide li:hover a {
 						background-color: #f4f4f4;
 						opacity: 1.0;
 					}
@@ -2383,23 +2383,23 @@ input, select, textarea {
 				border-bottom-left-radius: 0.4em;
 				box-shadow: 0.25em 0 0 0 #fbfbfb, 0 0 0.25em 0em rgba(0, 0, 0, 0.25);
 			}
-				.box.post .info .stats {
+				.box.post .info .guide {
 					position: relative;
 					z-index: 1;
 				}
 
-					.box.post .info .stats li {
+					.box.post .info .guide li {
 						margin: 1.25em 0 0 0;
 					}
 
-						.box.post .info .stats li a {
+						.box.post .info .guide li a {
 							position: relative;
 							display: block;
 							text-align: right;
 							padding: 0 0.5em 0 0.5em;
 						}
 
-							.box.post .info .stats li a:before {
+							.box.post .info .guide li a:before {
 								position: absolute;
 								left: 0;
 								top: 50%;
@@ -2465,24 +2465,24 @@ input, select, textarea {
 					display: inline;
 				}
 
-				.box.post .info .stats {
+				.box.post .info .guide {
 					display: inline;
 					border-left: solid 1px #ddd;
 					margin-left: 1em;
 					padding-left: 1em;
 				}
 
-					.box.post .info .stats li {
+					.box.post .info .guide li {
 						display: inline-block;
 						margin-left: 0.25em;
 					}
 
-						.box.post .info .stats li a {
+						.box.post .info .guide li a {
 							display: inline-block;
 							padding-right: 0.5em;
 						}
 
-							.box.post .info .stats li a:before {
+							.box.post .info .guide li a:before {
 								position: relative;
 								width: 1.75em;
 								text-align: center;
@@ -2599,31 +2599,31 @@ input, select, textarea {
 					padding-top: 0.5em;
 				}
 
-					.box.post .info .stats {
+					.box.post .info .guide {
 						display: inline;
 						border-left: solid 1px #ddd;
 						margin-left: 0.75em;
 						padding-left: 0.75em;
 					}
 
-						.box.post .info .stats li {
+						.box.post .info .guide li {
 							display: inline-block;
 							margin-right: 0.85em;
 						}
 
-							.box.post .info .stats li a {
+							.box.post .info .guide li a {
 								display: inline-block;
 								opacity: 0.5;
 							}
 
-								.box.post .info .stats li a:before {
+								.box.post .info .guide li a:before {
 									position: relative;
 									top: 0.1em;
 									margin-right: 0.5em;
 									opacity: 0.35;
 								}
 
-								.box.post .info .stats li a:active {
+								.box.post .info .guide li a:active {
 									opacity: 1.0;
 								}
 
