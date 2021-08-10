@@ -72,6 +72,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+img.applets {
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 /* Basic */
 
 	html {
