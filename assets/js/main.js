@@ -49,7 +49,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#sidebar" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">Cálculo 2B - GMA/UFF</span>' +
 				'</div>'
 			)
 				.appendTo($body);
